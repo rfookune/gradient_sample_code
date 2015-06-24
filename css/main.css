@@ -35,10 +35,23 @@ html, body{
     border-radius: 5px;
 }
 
-.navbar-collapse {
+/*.navbar-collapse {
 	float: right;
+}*/
+
+.navbar-right {
+	padding-right: 10px;
 }
 
+.shop_item {
+	height: 40px;
+	width: 40px;
+	padding-left: 4px;
+}
+
+.item-right button{
+	margin-right: 5px;
+}
 /*CAROUSEL*/
 
 .carousel-wrapper hr {
@@ -49,6 +62,11 @@ html, body{
 		rgba(255, 255, 255, 255), 
 		rgba(0, 0, 0, 0));
 }
+
+.carousel-inner {
+	max-height: 600px;
+}
+
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 	display: block;
