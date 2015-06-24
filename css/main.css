@@ -5,6 +5,10 @@ html, body{
     height: 100%;
 }
 
+.centered{
+	text-align: center;
+}
+
 /*NAVIGATION BAR*/
 
 .navbar {
@@ -35,10 +39,6 @@ html, body{
     border-radius: 5px;
 }
 
-/*.navbar-collapse {
-	float: right;
-}*/
-
 .navbar-right {
 	padding-right: 10px;
 }
@@ -52,6 +52,8 @@ html, body{
 .item-right button{
 	margin-right: 5px;
 }
+
+
 /*CAROUSEL*/
 
 .carousel-wrapper hr {
@@ -64,7 +66,8 @@ html, body{
 }
 
 .carousel-inner {
-	max-height: 600px;
+	max-height: 650px;
+	width: 100%;
 }
 
 
@@ -74,6 +77,21 @@ html, body{
 	max-width: 100%;
 	line-height: 1;
 	width: 100%;
+}
+
+
+/*COMPANY DESCRIPTION*/
+
+.description {
+	margin-top: 50px;
+}
+.description hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, 
+		rgba(0, 0, 0, 0), 
+		rgba(0, 0, 0, 0.75), 
+		rgba(0, 0, 0, 0));
 }
 
 
