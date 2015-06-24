@@ -1,0 +1,54 @@
+.navbar {
+	background-color: black;
+}
+
+.navbar-brand {
+	width: 235px;
+	background-image: url("../imgs/logo2.png");
+	background-size: 188px 50px;
+	background-repeat: no-repeat;  
+}
+
+.navbar-collapse {
+	float: right;
+}
+
+.carousel-wrapper {
+	margin-top: 50px;
+}
+
+.carousel-wrapper hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, 
+		rgba(0, 0, 0, 0), 
+		rgba(255, 255, 255, 255), 
+		rgba(0, 0, 0, 0));
+}
+
+.info {
+	margin-top: 50px;
+}
+
+.info hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, 
+		rgba(0, 0, 0, 0), 
+		rgba(0, 0, 0, 0.75), 
+		rgba(0, 0, 0, 0));
+}
+
+.form {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.connect {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.icon-group i{
+	margin: 5px;
+}
